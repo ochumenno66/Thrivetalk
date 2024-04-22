@@ -1,0 +1,322 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Общие стили */
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #fff;
+    width: 1348px;
+    height: 3000px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+.group3__card, .group4__card {
+    box-sizing: border-box;
+    width: 451px;
+    height: 251px;
+    padding: 50px;
+}
+
+/*Шапка*/
+
+.header {
+    padding: 27px 0;
+}
+
+.header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    margin-left: 177px;
+    margin-right: 147px;
+}
+
+.header__link {
+    color: #22356F;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.header__link:hover {
+    color: rgb(10, 198, 245);
+}
+
+.header__link--activ {
+    font-weight: bolder;
+}
+
+.header__link--activ:link {
+    color: rgb(238, 73, 8);
+}
+
+.header__list {
+    display: flex;
+    gap: 38px;
+}
+
+a.header__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 14px;
+    text-transform: uppercase;
+
+    width: 150px;
+    height: 50px;
+    background: #62D0DF;
+    border-radius: 50px;
+}
+
+a.header__btn:active {
+    color: chocolate;
+}
+
+/*Приветствие*/
+
+.welcome {
+    margin-top: -104px;
+    background-color: #F4F9E2;
+    width: 1348px;
+    height: 606px;
+
+    background-image: url("../image/Mask\ Group.png");
+    background-repeat: no-repeat;
+    background-size: 700px 720px;
+    background-position: right;
+}
+
+.welcome__container {
+    width: 469px;
+    margin-left: 179px;
+    padding-top: 160px;
+}
+
+.welcome__title {
+    padding-top: 14px;
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: -0.035em;
+    text-transform: uppercase;
+    
+    color: #22356F;
+}
+
+.welcome__desc {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: #22356F;
+}
+
+a.welcome__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    text-decoration: none;
+    color: #fff;
+    letter-spacing: 0.1em;
+    font-weight: 700;
+    font-size: 16px;
+    text-transform: uppercase;
+    
+    width: 150px;
+    height: 50px;
+    background: #F9B640;
+}
+
+/*Group 1*/
+
+.group1 {
+    background-color: #62D0DF;
+    width: 1348px;
+    height: 525px;
+
+    background-image: url("../image/home.png");
+    background-repeat: no-repeat;
+    background-size: 450px 525px;
+    background-position: right;
+}
+
+.group1__contaner {
+    width: 555px;
+    margin-left: 179px;
+    padding-top: 160px;
+}
+
+.group1__title {
+    font-weight: 700;
+    font-size: 36px;
+    letter-spacing: -0.006em;
+    
+    color: #FFFFFF;
+}
+
+.group1__desk {
+    margin: 20px 0;
+    font-weight: 400;
+    font-size: 24px;
+    color: #FFFFFF;
+}
+
+/* group2 */
+
+.group2 {
+    width: 1353px;
+    height: 481px;
+}
+
+.group2__container {
+width: 592px;
+margin-left: 424px;
+padding-top: 100px;
+}
+
+.group2__title {
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: #22356F;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.group2__desc {
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: 0.005em;
+    color: #22356F;
+    text-shadow: 0px 9px 9px rgba(0, 0, 0, 0.25);
+    margin: 20px 0;
+}
+
+.group2__btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    font-size: 16px;
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    color: rgba(34, 53, 111, 0.5);
+}
+
+.group2__btn:visited {
+    color: rgb(53, 0, 247);
+}
+
+/* Group3 */
+
+.group3__container1, .group3__container2 {
+    display: inline-flex;
+    
+}
+
+.group3__title {
+    font-weight: 700;
+    font-size: 32px;
+    letter-spacing: 0.006em;
+    color: #fff;
+    width: 148px;
+    height: 42px;
+}
+
+.card__physical {
+    background-color: #22356F;
+}
+
+.card__mental {
+    background-color: #0052C1;
+}
+
+.card__nutrition {
+    background-image: url("../image/joanna-kosinska-340748.png");
+    background-position: 10%;
+    background-repeat: no-repeat;
+    
+}
+
+.card__gimnastics {
+    background-color: #62D0DF;
+}
+
+.card__crossfit {
+    background-color: #DEE1FF;
+}
+
+.card__aerobics {
+    background-color: #8F00FF;
+}
+
+/* Group4 */
+
+.group4__container1, .group4__container2 {
+    display: inline-flex;
+}
+
+.group4__title {
+    text-align: center;
+    color: #22356F;
+}
+.group4__text {
+    padding: 20px;
+    font-weight: 400;
+    font-size: 16px;
+    letter-spacing: 0.03em;
+    color: #22356F;
+    text-align: center;
+}
+
+/* footer */
+
+.footer__container {
+    display: inline-flex;
+}
+
+.footer__card {
+    box-sizing: border-box;
+    width: 225px;
+    height: 198px;
+    padding-top: 107px;
+    padding-left: 100px;
+}
+
+.footer__title {
+    width: 233px;
+    height: 49px;
+    font-weight: 700;
+    font-size: 14px;
+    letter-spacing: 0.006em;
+    text-transform: uppercase;
+    color: #22356F;
+}
+
+.footer__text {
+    width: 233px;
+    height: 117px;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: 0.01em;
+    color: rgba(34, 53, 111, 0.5);
+}
